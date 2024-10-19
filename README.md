@@ -1,3 +1,3 @@
-# Site en SNT
+# Site de SNT
 
 

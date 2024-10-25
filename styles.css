@@ -26,8 +26,6 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
-/* Style des blocs de questions */
 .question-block {
     background-color: #cfe3f5;
     padding: 20px;
@@ -51,7 +49,6 @@ nav a:hover {
     color: black;
 }
 
-/* Ajouter un peu d'animation pour le survol */
 .question-block:hover {
     transform: scale(1.02);
     transition: transform 0.2s ease-in-out;

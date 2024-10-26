@@ -1,2 +1,3 @@
-ordre 
-index vers html, css, url, cookies, rgpd, clients serveurs, webstatique, webdynamique, http, arnaques sur interet.
+A faire :
+Ajouter l'image 
+ajouter le lien hypertexte

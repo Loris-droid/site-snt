@@ -1,2 +1,5 @@
 je ne sais pas ce que vas devenir ce repo apres mais j'espsre que je vais m'ameliorer au fil du temps et faire des gros projet apres le loris de novembre 2024
 ps si tu passe par la n'hésite pas a ameliorer le site encore et encore 
+
+Le web (ou World Wide Web) est un système d'information en ligne qui permet d'accéder à des documents reliés par des hyperliens, qui peuvent être consultés à l'aide d'un navigateur web. Le web a été inventé par Tim Berners-Lee en 1989 alors qu'il travaillait pour le CERN, et est devenu un moyen important de communication et d'échange d'informations dans le monde entier.
+W.W.W signifie <strong>World Wide Web</strong>

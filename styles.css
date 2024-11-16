@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #FFD4F5;
+    background-color: #62c6f5;
     padding: 20px;
     text-align: center;
 }
@@ -17,7 +17,7 @@ header h1 {
 }
 
 nav a {
-    color: #01015f;
+    color: #0026ff;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
@@ -27,7 +27,7 @@ nav a:hover {
     text-decoration: underline;
 }
 .question-block {
-    background-color: #f5cfec;
+    background-color: #cfe3f5;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -37,12 +37,12 @@ nav a:hover {
 
 .question-block h2 {
     font-size: 1.5em;
-    color: #01015f;
+    color: #345774;
 }
 
 .question-block p {
     font-size: 1.2em;
-    color: #01015f;
+    color: #345774;
 }
 
 .question-block strong {

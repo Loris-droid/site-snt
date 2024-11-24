@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #62c6f5;
+    background-color: #5ac7f9;
     padding: 20px;
     text-align: center;
 }
@@ -15,17 +15,6 @@ header h1 {
     color: white;
     margin-bottom: 10px;
 }
-
-nav a {
-    color: #0026ff;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 .question-block {
     background-color: #cfe3f5;
     padding: 20px;
@@ -33,6 +22,7 @@ nav a:hover {
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
 }
 
 .question-block h2 {
@@ -51,5 +41,65 @@ nav a:hover {
 
 .question-block:hover {
     transform: scale(1.02);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.3s ease;
 }
+.trigger-container {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 1000;
+  }
+
+.trigger-container img {
+    width: 40px; 
+    cursor: pointer;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #cfe3f5;
+    padding: 20px 10px; 
+    transform: translateX(-100%); 
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+#navbar li {
+    margin: 15px 0; 
+  }
+  
+#navbar a {
+    font-family: 'Chewy', sans-serif; /* A voir */
+    color: #345774;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block; 
+  }
+  
+#navbar a:hover {
+    background-color: #bbdaf5; 
+    text-decoration: none;
+  }
+  
+
+#navbar.visible {
+    transform: translateX(0); 
+  }

@@ -60,7 +60,7 @@ header h1 {
     left: 0;
     width: 250px;
     height: 100%;
-    background-color: #B89C76;
+    background-color: #cfe3f5;
     padding: 20px 10px; 
     transform: translateX(-100%); 
     transition: transform 0.3s ease-in-out;
@@ -82,7 +82,7 @@ header h1 {
   
 #navbar a {
     font-family: 'Chewy', sans-serif; /* A voir */
-    color: white;
+    color: #345774;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -91,7 +91,7 @@ header h1 {
   }
   
 #navbar a:hover {
-    background-color: #575757; 
+    background-color: #cfe3f5; 
     text-decoration: none;
   }
   

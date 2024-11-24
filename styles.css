@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #62c6f5;
+    background-color: #5ac7f9;
     padding: 20px;
     text-align: center;
 }
@@ -95,7 +95,7 @@ header h1 {
   }
   
 #navbar a:hover {
-    background-color: #cfe3f5; 
+    background-color: #bbdaf5; 
     text-decoration: none;
   }
   
